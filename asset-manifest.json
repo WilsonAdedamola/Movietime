@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Movietime.git/static/css/main.dcefa9e2.css",
+    "main.js": "/Movietime.git/static/js/main.5bc245dd.js",
+    "static/js/787.401d17c2.chunk.js": "/Movietime.git/static/js/787.401d17c2.chunk.js",
+    "static/media/cover-image.png": "/Movietime.git/static/media/cover-image.1d52031a6d4ea11baa1a.png",
+    "static/media/recently2.png": "/Movietime.git/static/media/recently2.70df46de84008f461965.png",
+    "static/media/recently1.png": "/Movietime.git/static/media/recently1.aef50c64223fcf2e275f.png",
+    "static/media/coming.png": "/Movietime.git/static/media/coming.975e8ddbf9930b27bf7e.png",
+    "static/media/continue4.png": "/Movietime.git/static/media/continue4.91c15f2d01726eb26a2b.png",
+    "static/media/continue2.png": "/Movietime.git/static/media/continue2.d11a0b1fe38aa909db0c.png",
+    "static/media/continue1.png": "/Movietime.git/static/media/continue1.0715419bd7747d1b308b.png",
+    "static/media/popular4.png": "/Movietime.git/static/media/popular4.6552cc8b536c62c61dd5.png",
+    "static/media/continue3.png": "/Movietime.git/static/media/continue3.b8062983b594ac70c010.png",
+    "static/media/popular3.png": "/Movietime.git/static/media/popular3.e99862dab5b8ba4afde3.png",
+    "static/media/popular1.png": "/Movietime.git/static/media/popular1.3126ff2f5889850b8783.png",
+    "static/media/popular2.png": "/Movietime.git/static/media/popular2.7ed0d12280bd80871c01.png",
+    "index.html": "/Movietime.git/index.html",
+    "main.dcefa9e2.css.map": "/Movietime.git/static/css/main.dcefa9e2.css.map",
+    "main.5bc245dd.js.map": "/Movietime.git/static/js/main.5bc245dd.js.map",
+    "787.401d17c2.chunk.js.map": "/Movietime.git/static/js/787.401d17c2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dcefa9e2.css",
+    "static/js/main.5bc245dd.js"
+  ]
+}
