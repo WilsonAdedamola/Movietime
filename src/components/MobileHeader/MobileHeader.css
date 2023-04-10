@@ -1,0 +1,25 @@
+.moible-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.ham{
+    color: white;
+    font-size: 25px;
+}
+
+@media screen and (max-width:500px) {
+    .ham{
+        font-size: 20px;
+    }
+
+    .moible-header .rightsidebar__avatar{
+        width: 38px;
+    }
+
+    .llogo{
+        width: 150px;
+    }
+}

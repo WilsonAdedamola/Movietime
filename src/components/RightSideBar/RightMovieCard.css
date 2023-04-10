@@ -1,0 +1,53 @@
+.rightmoviecard{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+.rightmoviecard__title{
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 31px;
+    color: #FFFFFF;
+    margin: 5px 0;
+}
+
+.movie-description{
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.movie-description p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #8D8C92;
+}
+
+.rightmoviecard__year{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #8D8C92;
+    margin-top: 5px;
+}
+
+@media screen and (max-width:600px) {
+    .rightmoviecard__title{
+        font-size: 18px;
+        line-height: 27px;
+        margin: 3px 0;
+    }
+
+    .movie-description p{
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .rightmoviecard__year{
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 3px;
+    }
+}

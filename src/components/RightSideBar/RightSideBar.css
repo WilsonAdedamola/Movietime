@@ -1,0 +1,122 @@
+.rightsidebar {
+    background: #0F0F0F;
+    height: 100%;
+    padding: 10px 30px 0px 30px;
+    max-width: 350px;
+    position: fixed;
+    display: flex;
+    right: 0;
+    overflow-y: auto;
+    flex-direction: column;
+}
+
+@media screen and (max-width:1200px) {
+    .rightsidebar {
+        right: -500px;
+    }
+
+    .reveal {
+        right: 0;
+        -webkit-box-shadow: -161px 66px 183px 200px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: -161px 66px 183px 200px rgba(0, 0, 0, 0.75);
+        box-shadow: -161px 66px 183px 200px rgba(0, 0, 0, 0.75);
+    }
+}
+
+.closebtn {
+    color: white;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.rightsidebar::-webkit-scrollbar {
+    display: none;
+}
+
+.flx {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.rightsidebar__avatar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 18px;
+    cursor: pointer;
+}
+
+.margin{
+    margin-top: 30px;
+}
+
+.name {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.mail {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #8D8C92;
+
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+
+.remind {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 10px;
+    gap: 10px;
+    background: #313540;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+.remind-icon {
+    font-size: 22px;
+    color: #ffffff;
+}
+
+@media screen and (max-width:600px) {
+    .reveal{
+        max-width: 300px;
+    }
+
+    .name {
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 22px;
+    }
+    
+    .mail {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 15px;
+    }    
+
+    .rightsidebar__avatar--img{
+        width: 45px;
+    }
+
+    h3 {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+    }
+}

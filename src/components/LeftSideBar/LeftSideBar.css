@@ -1,0 +1,153 @@
+.leftsidebar {
+    position: fixed;
+    max-width: 400px;
+    min-height: 100%;
+
+    background: #0F0F0F;
+    padding: 10px 60px 60px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-y: auto;
+}
+
+.visible {
+    display: none;
+}
+
+.searchh {
+    display: none;
+}
+
+@media screen and (max-width:900px) {
+
+    .leftsidebar {
+        max-width: 400px;
+        height: 100vh;
+        padding: 15px 60px 60px 40px;
+        gap: 100px;
+    }
+
+    .searchh {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .visible {
+        display: block;
+    }
+
+    .visible hr {
+        margin-top: 10px;
+    }
+
+    .leftsidebar {
+        left: -900px;
+    }
+
+    .left-reveal {
+        left: 0;
+        z-index: 1;
+        -webkit-box-shadow: 140px 66px 183px 200px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 140px 66px 183px 200px rgba(0, 0, 0, 0.75);
+        box-shadow: 140px 66px 183px 200px rgba(0, 0, 0, 0.75);
+    }
+}
+
+.leftsidebar__top .closebtn {
+    margin-bottom: 20px;
+}
+
+.leftsidebar-mobile::-webkit-scrollbar {
+    display: none;
+}
+
+.leftsidebar::-webkit-scrollbar {
+    display: none;
+}
+
+@media screen and (max-width:385px) {
+    .leftsidebar-mobile {
+        max-width: 270px;
+    }
+}
+
+.logo {
+    margin-bottom: 50px;
+}
+
+.leftsidebar-mobile .logo {
+    max-width: 200px;
+}
+
+.menu a.active {
+    color: #F8531D;
+    text-decoration: none;
+}
+
+hr {
+    max-width: 157px;
+    height: 0px;
+    border: 1px solid rgba(141, 140, 146, 0.2);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 30px;
+}
+
+.menu {
+    margin-bottom: 20px;
+}
+
+.menu h4 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.menu a {
+    margin: 20px 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8D8C92;
+    cursor: pointer;
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu a:hover {
+    color: #F8531D;
+}
+
+.icons {
+    font-size: 22px;
+}
+
+.logout {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #E83131;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+@media screen and (max-width:600px) {
+    .left-reveal{
+        max-width: 300px;
+    }
+
+    .visible h4, .menu h4 {
+        font-weight: 600;
+        font-size: 18px;
+    }
+}
